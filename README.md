@@ -1,11 +1,11 @@
-N.B. This has be an extraordinarily difficult section of the course for me exacerbated by personal goings on. This is not up to the standard I set for myself. This application has much more potential than what I managed and I intend on addressing it at a later date. 
+N.B. This has be an extraordinarily difficult section of the course for me exacerbated by personal goings on. This is not up to the standard I set for myself. This application has much more potential than what I managed and I intend on addressing it at a later date.
 
 This website is for **Quit Treker**, a small application for tracking the time since quitting smoking, associated data such as 'Cigarettes not smoked in that time', and a dynamic list of benefits to your body over time as you remain a newly designated non-smoker. The website has one page and will serve as a daily tracker and motivator for anyone wishing to quit smoking.
 
 The goals of this website are to:
 
 - Help the user with a constant reminder of how far they've come since quitting smoking, mainly through a timer starting from the moment they smoke their last cigarette.
-- Display some associated benefits to quitting smoking through the use of counters. These counters will track 4 things: 
+- Display some associated benefits to quitting smoking through the use of counters. These counters will track 4 things:
   - How many days in total since they quit,
   - How many cigarettes they would have smoked in that time,
   - How much money they have saved in that time,
@@ -23,8 +23,6 @@ The goals of this website are to:
 - I would like to be reminded of the positive benefits to my health over time and at what point in recovery I am currently in.
 - I want to be able to track the positive non-health related benefits to quitting such as how much money I'm saving. Money saved would have an immediate impact on my life so would be a great motivator if I seen what i've saved over time.
 
-
-
 ### Strategy
 
 My main goal was to create an application with a simple but appealing layout that displays data in a clear and concise manner.
@@ -37,17 +35,15 @@ I want the application to dsiplay the information to the user in a simple and su
 
 The webpage will contain an input field at the top; either a calander or a dropdown menu in order for the user to add;
 
-1.  The date in which they intend to quit which will produce a countdown timer leading up to the day they quit, 
-2. A past date in which they quit so they can see the accrued benefits they've recieved over that period, and
-3. A 'Quit Now' button to start the timer and quit smoking from that point on.
-
-
+1.  The date in which they intend to quit which will produce a countdown timer leading up to the day they quit,
+2.  A past date in which they quit so they can see the accrued benefits they've recieved over that period, and
+3.  A 'Quit Now' button to start the timer and quit smoking from that point on.
 
 ### Features to Implement in Future
 
 The main feature I'd like to add in the future relates to the money saved. I would like to be able to access the users payment details in order to create a limited type of savings account on the application. From there I would like to give the user the option to keep saving or withdraw some/all of their savings.
 
-I would also like to implement a API in order to allow the user to choose a product from Amazon and receive a notification when they've saved enough money to buy their chosen product. 
+I would also like to implement a API in order to allow the user to choose a product from Amazon and receive a notification when they've saved enough money to buy their chosen product.
 
 I would like to expand the range of this application by adding timer profiles for users who wish to quit other additions such as alcohol, sugar, fast food, trichotillomania, etc. so that the benefits that are displayed apply to each different addiction or habit.
 
@@ -76,7 +72,7 @@ I would like the user to recieve a notification when they've reached a new miles
   - **HTML**
   - **CSS**
   - **Bootstrap (4.6.0)**
-  - **Javascript** 
+  - **Javascript**
 - **Google fonts** as well as **FontAwesome** provided the fonts on the page as well as the icons.
 - The image used in this website was obtained with a standard licence from **ShutterStock.com**.
 
@@ -103,12 +99,10 @@ I would like the user to recieve a notification when they've reached a new miles
 
 - The site was also tested using [BrowserStack](https://live.browserstack.com/dashboard#os=android&os_version=10.0&device=Samsung+Galaxy+S20+Ultra&device_browser=chrome&zoom_to_fit=true&full_screen=true&url=https%3A%2F%2Frscanlon2021.github.io%2FPalmFreeIrishSoap%2Fgallery.html%23carouselExampleControls&speed=1). An online browser and mobile device emulator. I viewed the website and tested its functionality on various browsers on multiple device sizes.
 
-   
+### Project Barriers
 
-### Project Barriers 
-
-1. I couldnt find a solution to retrieving the calander input and using that as the value for the quitDate variable. I used multiple tutorials in an attempt to figure this issue out however I couldnt seem to find a solution to what is in all likelihood a very simple answer. I chose to remove any form of user input from the webpage so as not to confuse the assessor. 
-   1. Due to this any values I have, such as quitDate, is hardcoded. 
+1. I couldnt find a solution to retrieving the calander input and using that as the value for the quitDate variable. I used multiple tutorials in an attempt to figure this issue out however I couldnt seem to find a solution to what is in all likelihood a very simple answer. I chose to remove any form of user input from the webpage so as not to confuse the assessor.
+   1. Due to this any values I have, such as quitDate, is hardcoded.
 2. Another bug i encountered is the timer shifts a few pixels left and right each second. Again I couldn't seem to find a solution.
 3. With the milestone timeline i wanted the timeline to update without the need for refreshing the page.
 
@@ -136,14 +130,14 @@ To deploy this page to **GitHub Pages** from its **GitHub** repository, the foll
 
 1. You must first create a **Gitpod** account [here](https://www.gitpod.io/).
 2. The you must install the **Gitpod extension** onto your browser [here](https://www.gitpod.io/docs/browser-extension/).
-3. Log in to your **GitHub** account and go to the  [**Quit Treker**](https://github.com/RScanlon2021/QuitTreker) repository.
+3. Log in to your **GitHub** account and go to the [**Quit Treker**](https://github.com/RScanlon2021/QuitTreker) repository.
 4. Click on the green **Gitpod** button above the project file list to clone the repository.
 
 #### How to run this project on VS Code
 
 1. Install **VS Code** onto your computer [here.](https://code.visualstudio.com/)
-2. Upon being greeted by the *Welcome* tab click on **clone repository**.
-3. Enter the following link into the input bar  https://github.com/RScanlon2021/QuitTreker.
+2. Upon being greeted by the _Welcome_ tab click on **clone repository**.
+3. Enter the following link into the input bar https://github.com/RScanlon2021/QuitTreker.
 4. On the left hand side of the editor click on the **Run and Debug** icon and press the **Run and Debug** button.
 5. Select your desired browser from the dropdown and it will then open in a new window.
 
@@ -152,6 +146,8 @@ To deploy this page to **GitHub Pages** from its **GitHub** repository, the foll
 ###### Primary
 
 1. The background image was sourced from **ShutterStock** with a standard licence.
+2. The correct use of flex and flexbox was learned from both YouTube and the Documentation
+3. The broad template for the vertical timeline was taken from this video https://www.youtube.com/watch?v=zNccqv0g6Q4&t=918s
 
 ###### Acknowledgements
 
@@ -159,6 +155,6 @@ To deploy this page to **GitHub Pages** from its **GitHub** repository, the foll
 - I would like to thank Code Institute itself, all their tutors, and my fellow enrollees for any and all assistance they may have given.
 - In particular I would like to thank Code Institiute Student Care for accomodating me in what has been a hectic few months personally. I know this isn't up to the standard of my last project but I fully intend on making up for it in the MS3.
 
-### 
+###
 
-### 
+###
