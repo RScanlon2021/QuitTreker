@@ -44,3 +44,69 @@ body {
   color: azure;
   font-size: 3rem;
 }
+
+/* ----------------------------------------------------------------------------- COUNTERS*/
+
+.counters-container {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.counters-container .counter-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter-content .box {
+  width: calc(25% - 30px);
+  border: 2px solid azure;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: azure;
+  flex-direction: column;
+  border-radius: 5px;
+  background: #1e1f2260;
+}
+
+.counter-content .box .icon {
+  font-size: 48px;
+  color: azure;
+}
+
+.counter-content .box .counter {
+  font-size: 2.5rem;
+  color: azure;
+  font-weight: 500;
+}
+
+.counter-content .box .text {
+  color: azure;
+  font-weight: 400;
+  font-family: "Karla", Montserrat;
+}
+
+@media (max-width: 1036px) {
+  .counters-container {
+    padding: 50px 50px 0 50px;
+  }
+  .counter-content .box {
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 580px) {
+  .counter-content .box {
+    width: 100%;
+  }
+}
