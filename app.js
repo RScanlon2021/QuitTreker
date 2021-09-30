@@ -37,3 +37,45 @@ function updateCountUpTimer() {
   secondsCounter.innerHTML = secs;
 }
 setInterval(updateCountUpTimer, 1000);
+
+/////////////////////////////////////////////////////////////////////////////////MILESTONE
+
+const containerMilestones = document.querySelector(".timeline");
+const quitDateMilli = quitDate.getTime();
+
+const plus_20_Mins = quitDateMilli + 1000 * 60 * 20;
+const plus_8_Hours = quitDateMilli + 1000 * 60 * 60 * 8;
+const plus_One_Day = quitDateMilli + 1000 * 60 * 60 * 24;
+const plus_Two_Days = quitDateMilli + 1000 * 60 * 60 * 24 * 2;
+const plus_Three_Days = quitDateMilli + 1000 * 60 * 60 * 24 * 3;
+const plus_One_Week = quitDateMilli + 1000 * 60 * 60 * 24 * 7;
+const plus_Two_Weeks = quitDateMilli + 1000 * 60 * 60 * 24 * 14;
+const plus_One_Month = quitDateMilli + 1000 * 60 * 60 * 24 * 30;
+const plus_Three_Months = quitDateMilli + 1000 * 60 * 60 * 24 * 30 * 3;
+const plus_Six_Months = quitDateMilli + 1000 * 60 * 60 * 24 * 30 * 6;
+const plus_One_Year = quitDateMilli + 1000 * 60 * 60 * 24 * 365;
+const plus_Two_Years = quitDateMilli + 1000 * 60 * 60 * 24 * 365 * 2;
+const plus_Three_Years = quitDateMilli + 1000 * 60 * 60 * 24 * 365 * 3;
+const plus_Five_Years = quitDateMilli + 1000 * 60 * 60 * 24 * 365 * 5;
+const plus_Ten_Years = quitDateMilli + 1000 * 60 * 60 * 24 * 365 * 10;
+const plus_Fifteen_Years = quitDateMilli + 1000 * 60 * 60 * 24 * 365 * 15;
+
+const milestones = [];
+milestones.push(
+  plus_20_Mins,
+  plus_8_Hours,
+  plus_One_Day,
+  plus_Two_Days,
+  plus_Three_Days,
+  plus_One_Week,
+  plus_Two_Weeks,
+  plus_One_Month,
+  plus_Three_Months,
+  plus_Six_Months,
+  plus_One_Year,
+  plus_Two_Years,
+  plus_Three_Years,
+  plus_Five_Years,
+  plus_Ten_Years,
+  plus_Fifteen_Years
+);
