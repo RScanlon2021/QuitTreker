@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
-const quitDate = new Date(2021, 08, 17, 12, 35);
+const quitDate = new Date(2021, 08, 10, 20, 35);
 const now = new Date();
 const quitDiff = now - quitDate;
 ///////////////////////////////////////////////////////////////////////////////MAIN COUNTER
@@ -213,7 +213,7 @@ const moneySaved = document.getElementById("money-counter");
 moneySaved.textContent = `€${calcMoneySaved}`;
 
 ///////////////////////////////////////////////////////////////////////////////CIGARETTES PER DAY
-const cigarettesPerDay = 15;
+const cigarettesPerDay = 20;
 const calcCigarettesSaved = smokeFreeDays * cigarettesPerDay;
 const CigarettesSaved = document.getElementById("cig-count");
 CigarettesSaved.textContent = `${calcCigarettesSaved}`.padEnd(2, 0);
