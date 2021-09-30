@@ -217,3 +217,26 @@ const cigarettesPerDay = 15;
 const calcCigarettesSaved = smokeFreeDays * cigarettesPerDay;
 const CigarettesSaved = document.getElementById("cig-count");
 CigarettesSaved.textContent = `${calcCigarettesSaved}`.padEnd(2, 0);
+
+///////////////////////////////////////////////////////////////////////////////LIFE RECLAIMED
+const lifeGained = document.getElementById("life-gained");
+const cigCost = calcCigarettesSaved * 11;
+
+function convertMinutes(num) {
+  years = Math.floor(num / 60 / 24 / 365);
+  months = Math.floor(((num / 60 / 24) % 30) % 12);
+  days = Math.floor((num / 60) % 24);
+  hours = Math.floor((num / 60) % 24);
+  mins = Math.round(num % 60);
+
+  if (years >= 1) {
+    lifeGained.innerHTML = `${years} yr : ${months} mth`;
+  } else if (months >= 1) {
+    lifeGained.innerHTML = `${months} mth : ${days} d`;
+  } else if (days >= 1) {
+    lifeGained.innerHTML = `${days} d : ${hours} hr`;
+  } else {
+    lifeGained.innerHTML = `${hours} hr : ${mins} min`;
+  }
+}
+setInterval(convertMinutes(cigCost), 1000);
