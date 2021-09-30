@@ -138,3 +138,4 @@ const benefits = [
     "The risk of heart disease and stroke is similar to that of someone who never smoked.",
   ],
 ];
+
