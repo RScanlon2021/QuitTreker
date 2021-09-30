@@ -205,3 +205,9 @@ quittingDate.textContent = `Quit Date: ${quitWeekdayString} ${quitMonthString} $
 const smokeFreeDays = calcDaysPassed(now, quitDate);
 const smokeFree = document.getElementById("smoke-free");
 smokeFree.textContent = `${smokeFreeDays}`;
+
+///////////////////////////////////////////////////////////////////////////////COST PER PACK
+const costPerPack = 14.1;
+const calcMoneySaved = (smokeFreeDays * costPerPack).toFixed(2);
+const moneySaved = document.getElementById("money-counter");
+moneySaved.textContent = `€${calcMoneySaved}`;
