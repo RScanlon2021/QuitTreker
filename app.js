@@ -199,3 +199,9 @@ const quitDay = String(quitDate.getDate()).padStart(2, 0);
 const quitWeekdayString = weekday[quitDate.getDay()];
 const quittingDate = document.getElementById("quit-date");
 quittingDate.textContent = `Quit Date: ${quitWeekdayString} ${quitMonthString} ${quitDay}, ${quitYear}`;
+
+///////////////////////////////////////////////////////////////////////////////SMOKE FREE DAYS
+
+const smokeFreeDays = calcDaysPassed(now, quitDate);
+const smokeFree = document.getElementById("smoke-free");
+smokeFree.textContent = `${smokeFreeDays}`;
