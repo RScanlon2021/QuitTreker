@@ -17,7 +17,7 @@ body {
   position: relative;
 }
 
-.main_heading {
+.main-heading {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
@@ -110,7 +110,8 @@ body {
   }
 }
 /* ----------------------------------------------------------------------------- MILESTONES*/
-
+/* https://www.youtube.com/watch?v=zNccqv0g6Q4&t=918s THE BELOW CODE AND ITS ASSOCIATED HTML 
+	WAS PARTIALLY TAKEN FROM THIS YOUTUBE TUTORIAL AS A SORT OF TEMPLATE BUT CHANGED TO SUIT MY NEEDS  */
 .milestone-container {
   width: 80%;
   display: flex;
