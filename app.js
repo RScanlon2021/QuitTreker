@@ -211,3 +211,9 @@ const costPerPack = 14.1;
 const calcMoneySaved = (smokeFreeDays * costPerPack).toFixed(2);
 const moneySaved = document.getElementById("money-counter");
 moneySaved.textContent = `€${calcMoneySaved}`;
+
+///////////////////////////////////////////////////////////////////////////////CIGARETTES PER DAY
+const cigarettesPerDay = 15;
+const calcCigarettesSaved = smokeFreeDays * cigarettesPerDay;
+const CigarettesSaved = document.getElementById("cig-count");
+CigarettesSaved.textContent = `${calcCigarettesSaved}`.padEnd(2, 0);
