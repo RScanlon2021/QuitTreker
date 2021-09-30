@@ -79,3 +79,62 @@ milestones.push(
   plus_Ten_Years,
   plus_Fifteen_Years
 );
+///////////////////////////////////////////////////////////////////////////////BENEFITS ARRAY
+
+const benefits = [
+  ["20 Mins", "Your blood pressure and pulse has started to return to normal."],
+  ["8 Hours", "Carbon monoxide levels have returned to a more normal level."],
+  [
+    "24 Hours",
+    "Nicotine is almost completely absent from your blood and you have already reduced your risk of heart attack.",
+  ],
+  [
+    "48 Hours",
+    "Previously damaged nerve endings have begun to regrow allowing for improved smell and taste.",
+  ],
+  [
+    "72 Hours",
+    "your Lungs have begun to relax and open up making oxygenation inside your lungs much more effective.",
+  ],
+  [
+    "1 Week",
+    "CONGRATULATIONS! smokers who make the 1 week mark are 9x more likely to quit successfully.",
+  ],
+  [
+    "2 Weeks",
+    "Lung function has increased by as much as 30% making breathing, walking and exercise easier.",
+  ],
+  [
+    "1 Month",
+    "Fibres in your lungs have regrown significantly so the they can more effectively remove excess mucus and bacteria resulting in a reduction in sinus congestion and shortness of breath when exercising.",
+  ],
+  [
+    "3 Months",
+    "Female smokers have improved their fertility levels as well as reduced the chances of a premature birth.",
+  ],
+  ["6 Months", "Lungs produce much less mucus and are far less inflamed."],
+  [
+    "1 Year",
+    "your risk of a heart attack is much lower, as is your blood pressure. Coughing and upper respiratory problems begin to improve.",
+  ],
+  [
+    "2 Years",
+    "The risk of stroke drops to that of someone who does not smoke.",
+  ],
+  [
+    "3 Years",
+    "Your risk of a heart attack has reduced to that of a non-smoker.",
+  ],
+  [
+    "5 Years",
+    "The risk of mouth, lung, throat, oesophagus, and bladder cancer is reduced by half.",
+  ],
+  [
+    "10 Years",
+    "The risk of lung cancer and bladder cancer is that of a non-smoker as at this point the cells in your lungs have all been replaced by new, undamaged cells.",
+  ],
+  [
+    "15 Years",
+    "The risk of heart disease and stroke is similar to that of someone who never smoked.",
+  ],
+];
