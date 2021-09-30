@@ -138,4 +138,27 @@ const benefits = [
     "The risk of heart disease and stroke is similar to that of someone who never smoked.",
   ],
 ];
+///////////////////////////////////////////////////////////////////////////////DISPLAY BENEFITS FUNCTION
 
+const displayBenefits = function (benefits) {
+  containerMilestones.innerHTML = "";
+  milestones.forEach((milestone, i) => {
+    const benefit = benefits[i];
+
+    if (now.getTime() >= milestone) {
+      const html = `<div class="timeline">
+	    <ul>
+	      <li>
+		<div class="timeline-content">
+		  <h1>${benefit[0]}</h1>
+		  <p>${benefit[1]}</p>
+		</div>
+	      </li>
+	    </ul>
+	  </div>`;
+
+      containerMilestones.insertAdjacentHTML("afterbegin", html);
+    }
+  });
+};
+setInterval(displayBenefits(benefits), 1000);
