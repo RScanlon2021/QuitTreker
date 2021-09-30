@@ -190,3 +190,12 @@ month[8] = "Sept";
 month[9] = "Oct";
 month[10] = "Nov";
 month[11] = "Dec";
+
+///////////////////////////////////////////////////////////////////////////////LAST CIGARETTE DATE
+
+const quitYear = quitDate.getFullYear();
+const quitMonthString = month[quitDate.getMonth()];
+const quitDay = String(quitDate.getDate()).padStart(2, 0);
+const quitWeekdayString = weekday[quitDate.getDay()];
+const quittingDate = document.getElementById("quit-date");
+quittingDate.textContent = `Quit Date: ${quitWeekdayString} ${quitMonthString} ${quitDay}, ${quitYear}`;
