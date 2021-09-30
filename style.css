@@ -8,7 +8,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
-  overflow: overlay;
 
   font-family: "Karla", Montserrat;
   align-items: center;
@@ -110,6 +109,8 @@ body {
     width: 100%;
   }
 }
+/* ----------------------------------------------------------------------------- MILESTONES*/
+
 .milestone-container {
   width: 80%;
   display: flex;
