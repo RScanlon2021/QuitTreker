@@ -110,3 +110,36 @@ body {
     width: 100%;
   }
 }
+.milestone-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  margin: 50px 10%;
+  padding-bottom: 100px;
+  text-transform: capitalize;
+}
+
+.milestone-container::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+
+.timeline ul li {
+  padding: 20px;
+  background-color: #1e1f2260;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
