@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&display=swap");
+
+body {
+  height: 100%;
+  background: url("images/background_climber.jpg") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  overflow: overlay;
+
+  font-family: "Karla", Montserrat;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  position: relative;
+}
+
+.main_heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#quit-date {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* ----------------------------------------------------------------------------- COUNTER*/
+
+.timer-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.timer-container h2 {
+  color: azure;
+  font-size: 3rem;
+}
